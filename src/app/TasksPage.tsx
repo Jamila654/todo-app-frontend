@@ -14,7 +14,7 @@ type Task = {
   tags: string;
 };
 
-const API = 'https://todo-app-backend-swart.vercel.app/';
+const API = 'https://todo-app-backend-swart.vercel.app';
 
 export default function Home() {
   const router = useRouter();
