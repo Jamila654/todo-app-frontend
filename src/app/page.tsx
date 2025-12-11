@@ -14,7 +14,7 @@ type Task = {
   tags: string;
 };
 
-const API = process.env.NEXT_PUBLIC_API || '/api';
+const API = 'https://todo-app-backend-swart.vercel.app/';
 
 export default function Home() {
   const router = useRouter();
